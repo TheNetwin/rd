@@ -1,0 +1,11 @@
+<StartScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            source: 'assets/background.png'
+        Label:
+            text: "Welcome to PhotoStop"
+            font_size: 32
+        Button:
+            text: "Go to Projects"
+            on_release: app.root.current = 'projects'

@@ -1,0 +1,11 @@
+<ProjectsScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Your Projects"
+        Button:
+            text: "Add Project"
+            on_release: root.add_project()
+        Button:
+            text: "Edit Project"
+            on_release: app.root.current = 'edit_project'
